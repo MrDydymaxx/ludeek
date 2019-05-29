@@ -6,3 +6,24 @@
 	width:auto;
 	margin:5px;
 }
+.social {
+	max-width:45%;
+	height:45%;
+}
+.infos {
+	background-color:rgb(21,183,194);
+}
+.img_contact {
+	width:50%;
+}
+#vertical {
+	background-color:white;	
+	width:10px;
+	height:100px;
+}
+.info_img {
+	height:10%;
+}
+.viewport {
+	height:100vh;
+}
