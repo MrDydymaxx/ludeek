@@ -5,7 +5,7 @@ body {
 	overflow-x:hidden;
 
 }
-#caroussel {
+#carousel {
 	background:orange;
 }
 .nav-social {
@@ -52,4 +52,7 @@ body {
 #navbar {
 	height:10vh;
 	background-color:white;
+}
+.img-carousel {
+	height:90vh;
 }
