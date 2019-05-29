@@ -1,5 +1,12 @@
-.green {
-	background-color:rgb(75,149,150);
+html {
+	scroll-behavior:smooth;
+}
+body {
+	overflow-x:hidden;
+
+}
+#caroussel {
+	background:orange;
 }
 .nav-social {
 	height:25px;
@@ -25,7 +32,9 @@
 	height:10%;
 }
 .viewport {
-	height:100vh;
+	position:relative;
+	top:10vh;
+	height:90vh;
 }
 #nav a{
 	color:black;
@@ -39,4 +48,8 @@
 #nav button:hover a{
 	color:white;
 	transition:0.1s;
+}
+#navbar {
+	height:10vh;
+	background-color:white;
 }
