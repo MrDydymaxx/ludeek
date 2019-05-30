@@ -1,10 +1,17 @@
 html {
 	scroll-behavior:smooth;
 }
+@font-face {
+font-family: 'Bank Gothic Medium';
+font-style: normal;
+font-weight: normal;
+src: local('Bank Gothic Medium'), url('ufonts.com_bank-gothic-medium.woff') format('woff');
+}
 body {
 	overflow-x:hidden;
-
+	font-family:'Bank Gothic Medium';
 }
+
 #carousel {
 	background:orange;
 }
@@ -18,10 +25,13 @@ body {
 	height:45%;
 }
 .infos {
-	background-color:rgb(21,183,194);
+	background-color:#226968;
 }
 .img_contact {
 	width:50%;
+}
+#logo_ludeek{
+	width: 20vh;
 }
 #vertical {
 	background-color:white;	
@@ -39,20 +49,25 @@ body {
 #nav a{
 	color:black;
 	text-decoration:none;
+	font-size: 1.2em;
 }
 
 #nav button:hover{
-	background:orange;
+	background:#226968;
 	transition:0.5s;
 }
 #nav button:hover a{
-	color:white;
+	color:#EE883C;
 	transition:0.1s;
 }
 #navbar {
 	height:10vh;
 	background-color:white;
+
 }
 .img-carousel {
 	height:90vh;
+}
+.infos{
+	color:#EE883C;
 }
