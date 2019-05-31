@@ -31,7 +31,7 @@ body {
 	width:50%;
 }
 #logo_ludeek{
-	width: 20vh;
+	width: 25vh;
 }
 #vertical {
 	background-color:white;	
@@ -56,14 +56,13 @@ body {
 	background:#226968;
 	transition:0.5s;
 }
-#nav button:hover a{
+#nav a button:hover{
 	color:#EE883C;
 	transition:0.1s;
 }
 #navbar {
 	height:10vh;
 	background-color:white;
-
 }
 .img-carousel {
 	height:90vh;
