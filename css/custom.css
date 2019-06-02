@@ -1,5 +1,6 @@
 html {
 	scroll-behavior:smooth;
+	overflow-x:hidden;
 }
 @font-face {
 font-family: 'Bank Gothic Medium';
@@ -11,18 +12,26 @@ body {
 	overflow-x:hidden;
 	font-family:'Bank Gothic Medium';
 }
-
 #carousel {
 	background:orange;
 }
 .nav-social {
-	height:25px;
+	height:3.5vh;
 	width:auto;
-	margin:5px;
+	margin:0.5vw;
+}
+#reseau_soc_header{
+	position: absolute;
+	right: 1vw;
 }
 .social {
 	max-width:45%;
 	height:45%;
+}
+.nav-link button{
+	padding: 0.7em;
+	padding-right: 2em;
+	padding-left: 2em;
 }
 .infos {
 	background-color:#226968;
@@ -31,20 +40,10 @@ body {
 	width:50%;
 }
 #logo_ludeek{
-	width: 25vh;
-}
-#vertical {
-	background-color:white;	
-	width:10px;
-	height:100px;
+	height: 8vh;
 }
 .info_img {
 	height:10%;
-}
-.viewport {
-	position:relative;
-	top:10vh;
-	height:90vh;
 }
 #nav a{
 	color:black;
@@ -62,10 +61,6 @@ body {
 }
 #navbar {
 	height:10vh;
-	background-color:white;
-}
-.img-carousel {
-	height:90vh;
 }
 .infos{
 	color:#EE883C;
