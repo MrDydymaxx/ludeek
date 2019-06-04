@@ -72,6 +72,10 @@ body {
 	color:#EE883C;
 }
 .img_produits{
-	max-width: 95%;
+	max-width: 90%;
 	height: auto;
+}
+.bloc_titre_img_produits{
+	margin-bottom: 2.5%;
+	margin-top: 2.5%;
 }
