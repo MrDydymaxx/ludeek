@@ -21,9 +21,9 @@ body {
 	width:auto;
 	margin:0.5vw;
 }
-#reseau_soc_header{
-	position: absolute;
-	right: 1vw;
+.reseau_soc_header{
+	position:relative;
+	left: 5%;
 }
 .social {
 	max-width:30%;
