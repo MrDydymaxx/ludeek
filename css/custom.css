@@ -45,10 +45,11 @@ body {
 }
 
 .info_img {
-	height:10%;
+	max-height: 5vh;
+	width: auto;
 }
 .viewport {
-	height:100vh;
+
 }
 #nav a{
 	color:black;
@@ -70,13 +71,7 @@ body {
 .infos{
 	color:#EE883C;
 }
-.titres_h1{
-	margin-top : -10%;
-}
 .img_produits{
 	max-width: 95%;
 	height: auto;
-}
-.txt_infos{
-	font-size: 1.3em;
 }
