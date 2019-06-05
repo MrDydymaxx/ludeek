@@ -3,10 +3,10 @@ html {
 	overflow-x:hidden;
 }
 @font-face {
-font-family: 'Bank Gothic Medium';
+font-family: "Bank Gothic Medium";
 font-style: normal;
 font-weight: normal;
-src: local('Bank Gothic Medium'), url('ufonts.com_bank-gothic-medium.woff') format('woff');
+src: url("../font/ufonts.com_bank-gothic-medium.woff") format("woff");
 }
 body {
 	overflow-x:hidden;
@@ -22,8 +22,8 @@ body {
 	margin:0.5vw;
 }
 .reseau_soc_header{
-	position:relative;
-	left: 5%;
+	position:absolute;
+	right:1vw; 
 }
 .social {
 	max-width:30%;
