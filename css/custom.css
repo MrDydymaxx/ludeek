@@ -15,38 +15,26 @@ body {
 #carousel {
 	background:orange;
 }
-
-.nav-social {
-	height:3.5vh;
-	width:auto;
-	margin:0.5vw;
-}
 .reseau_soc_header{
 	position:absolute;
 	right:1vw; 
 }
-.social {
-	max-width:30%;
-	height:45%;
+.nav-social {
+	height:3.5vh;
+	width:auto;
+	margin:0.5vw;
 }
 .nav-link button{
 	padding: 0.7em;
 	padding-right: 2em;
 	padding-left: 2em;
 }
+
 .infos {
 	background-color:#226968;
 }
-.img_contact {
-	width:40%;
-}
 #logo_ludeek{
 	height: 8vh;
-}
-
-.info_img {
-	max-height: 5vh;
-	width: auto;
 }
 .viewport {
 	padding-top: 10vh;
@@ -71,13 +59,30 @@ body {
 .infos{
 	color:#EE883C;
 }
+#Produits h3, h4, h5{
+	color: black;
+}
+hr.divider{
+	max-width: 5em;
+	border-width: 0.5em;
+	border-color:#EE883C;
+}
+.info_img {
+	max-height: 5vh;
+	width: auto;
+}
+.social {
+	max-height:8vh;
+	width: auto;
+}
+.img_contact {
+	width:50%;
+	height: auto;
+}
+
 .img_produits{
 	max-width: 80%;
 	height: auto;
-}
-.bloc_titre_img_produits{
-	margin-bottom: 2.5%;
-	margin-top: 2.5%;
 }
 .accordion .card-header, .accordion .card-header button, .accordion .card-header button:hover{
 	background:#226968;
@@ -85,19 +90,53 @@ body {
 	color:#EE883C;
 	font-size: 1.3em;
 }
-
-#Produits h3, h4, h5{
-	color: black;
-}
 .map{
-	max-height: 30vh;
+	max-height: 40vh;
 	width: auto;
 }
-hr.divider{
-	max-width: 5em;
-	border-width: 0.5em;
-	border-color:#EE883C;
+#noustrouver {
+	margin-left: -7vw;
+	margin-right: -7vw;
 }
-.vertical-divider{
-	height: 200px;
+
+@media (min-width: 992px) and (max-width: 1383px) {
+	.nav-item button{
+	margin-right:-50px;
+	margin-left: -50px; 
+	}
+}
+@media (min-width: 992px) and (max-width: 1280px) {
+
+	.contact_info{
+		margin-left: 7%;
+		margin-right: 7%;
+	}
+}
+@media (max-width: 991px) {
+	.titre_infos{
+		margin-left:15vw;
+		margin-right: 15vw;
+	}
+	#noustrouver {
+		margin-left: 14vw;
+		margin-right: 14vw;
+	}
+}
+@media (max-width: 647px) {
+	#noustrouver {
+	margin-left: 0vw;
+	margin-right: 0vw;
+	}
+	#horaires{
+		margin-top: -5%;
+		margin-bottom: -15%;
+	}
+	.titre_infos h2{
+		font-size: 1.4em;
+	}
+	#InfosPratiques h3,h4{
+		font-size: 1.3em;
+		margin-left: -10vw;
+		margin-right: -10vw;
+	}
 }
