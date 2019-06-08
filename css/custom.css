@@ -145,3 +145,8 @@ hr.divider{
 	margin-left: -50px; 
 	}
 }
+@media (min-width: 450px) and (max-width:647px){
+	#InfosPratiques h3{
+	font-size:1em; 
+	}
+}
