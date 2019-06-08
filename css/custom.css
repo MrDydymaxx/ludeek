@@ -72,10 +72,32 @@ body {
 	color:#EE883C;
 }
 .img_produits{
-	max-width: 100%;
+	max-width: 80%;
 	height: auto;
 }
 .bloc_titre_img_produits{
 	margin-bottom: 2.5%;
 	margin-top: 2.5%;
+}
+.accordion .card-header, .accordion .card-header button, .accordion .card-header button:hover{
+	background:#226968;
+	text-decoration: none;
+	color:#EE883C;
+	font-size: 1.3em;
+}
+
+#Produits h3, h4, h5{
+	color: black;
+}
+.map{
+	max-height: 30vh;
+	width: auto;
+}
+hr.divider{
+	max-width: 5em;
+	border-width: 0.5em;
+	border-color:#EE883C;
+}
+.vertical-divider{
+	height: 200px;
 }
