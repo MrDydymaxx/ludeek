@@ -140,3 +140,8 @@ hr.divider{
 		margin-right: -10vw;
 	}
 }
+@media (min-height: 942px) {
+	.nav-item button{
+	margin-left: -50px; 
+	}
+}
