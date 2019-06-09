@@ -108,8 +108,16 @@ hr.divider{
 @media (min-width: 992px) and (max-width: 1280px) {
 
 	.contact_info{
-		margin-left: 7%;
-		margin-right: 7%;
+		margin-left: 8%;
+		margin-right: 8%;
+	}
+	#noustrouver {
+	margin-left: -7vw;
+	margin-right: -7vw;
+	}
+	#InfosPratiques h3,h4{
+		margin-left: -3vw;
+		margin-right: -3vw;
 	}
 }
 @media (max-width: 991px) {
