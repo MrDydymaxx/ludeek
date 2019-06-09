@@ -199,7 +199,7 @@ hr.divider{
 	}
 }
 @media (max-width:812px) and (max-height:375px){
-	.prod-button{
+	.map{
 		font-size:0.8em;
 	}
 }
