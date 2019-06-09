@@ -91,8 +91,8 @@ hr.divider{
 	font-size: 1.3em;
 }
 .map{
-	max-height: 40vh;
-	width: auto;
+	height:auto;
+	width: 40vh;
 }
 #noustrouver {
 	margin-left: -7vw;
@@ -194,6 +194,6 @@ hr.divider{
 
 @media (max-width:812px) and (max-height:375px){
 	.map{
-		font-size:0.8em;
+		width:auto;
+		height:60%;
 	}
-}
